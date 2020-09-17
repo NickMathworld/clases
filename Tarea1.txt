@@ -1,0 +1,35 @@
+Problemas a resolver
+# Instrucciones:
+## Cada uno de éstos problemas se tiene que resolver mediante una función en python
+## que regrese la respuesta a lo que estamos pidiendo
+
+1 - Obtener el elemento más grande en una lista de número
+#Ejemplo
+# arreglo = [1,2,3,4,5] 
+# res = getMax(arreglo)
+# res debe valer después de eso 5, ya que es el elemento más grande de los elementos del arreglo
+
+2 - Eliminar una palabra de una lista de palabras
+# arreglo = ["hola","mundo",nick","madworld","levi","paco"] 
+# res = deleteWord("paco")
+#res valdría después de ejecutar deleteWord ["hola","mundo",nick","madworld","levi"]
+# hint: En python para una lista existe una función llamada pop() que recibe el índice de la lista que se va a eliminar
+# ejemplo de pop arreglo.pop(0) -> para esa llamada eliminaría "hola" de la lista arreglo 
+
+3 - Determinar si existe cierta palabra en una lista de palabras
+# arreglo = ["hola","mundo",nick","madworld","levi","paco"] 
+# res = findWord(arreglo,"mad")
+# res valdría después de ejecutar findWord FALSE, ya que dentro de la lista de palabras no existe una cadena que sea mad solamente
+
+4 -  Determinar si dos listas son iguales
+# arreglo1 = {1,2,3}
+# arreglo2 = {1,2,3}
+# res = areEquals(arreglo1,arreglo2)
+# res debería valer TRUE, ya que las listas contienen los mismos elementos
+# hint: Para éste problema no importa si se resuelve checando directamente con == si son iguales las listas
+
+5 - Ordenar una lista de números 
+# arreglo = {2,4,3,5,1}
+# res = mySort(arreglo)
+# res después de llamar a mySort() debería valer {1,2,3,4,5}
+# pd: no se puede usar la función sort que ya tiene python para ordenar, pueden usar bubble sort o algún método de ordenamiento
