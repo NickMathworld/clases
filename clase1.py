@@ -16,12 +16,10 @@ d = True
 e = c+d
 # b = 10
 
-
 def operaciones(a,b):
     return a**b
 
 def quitaChar(param1,ch1):
-    #lee de teclado
     return param1
     
 p = operaciones(2,6)

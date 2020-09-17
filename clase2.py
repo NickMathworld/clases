@@ -51,7 +51,7 @@ def quitaChar(param1, ch1):
             ans = x+ans
     return ans
 
-def volteaCad(param1):
+def volteaCadena(param1):
     ans = ""
     return ans
 
@@ -60,6 +60,7 @@ def volteaCad(param1):
 #char = input("Ingresa el char a eliminar: ")
 #respuesta = quitaChar(inpt,char)
 ##print(respuesta)
+
 print("\n")
 
 for cadena in cadenas:
