@@ -17,7 +17,7 @@ elif a==17:
     print("Cualquier cosa 2")
 else:
     print("Cualquier cosa 3")
-# x < 10
+#
 # 
 for x in range(10):
     print(x)
