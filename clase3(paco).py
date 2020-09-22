@@ -47,6 +47,7 @@ def validateString(input):
             if len(parentesis) == 0:
                 return False
             parentesis.pop()
+            
     if len(parentesis) == 0:
         return True
     return False
