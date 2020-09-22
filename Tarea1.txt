@@ -3,7 +3,7 @@ Problemas a resolver
 ## Cada uno de éstos problemas se tiene que resolver mediante una función en python
 ## que regrese la respuesta a lo que estamos pidiendo
 
-1 - Obtener el elemento más grande en una lista de número
+1 - Obtener el elemento más grande en una lista de números
 #Ejemplo
 # arreglo = [1,2,3,4,5] 
 # res = getMax(arreglo)
