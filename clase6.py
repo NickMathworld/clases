@@ -35,6 +35,18 @@ class Tree:
                     next = next.right
                 next = next.right
         return 0
+
+def search(node,x):
+    if node == None:
+        return False
+    print(node.num)
+    if node.num == x:
+        return True
+    if node.num > x:
+        return search(node.left,x)
+    else:
+        return search(node.right,x)
+
 def inOrder(node):
     if node == None:
         return
@@ -53,4 +65,6 @@ root.insert(8)
 root.insert(15)
 root.insert(-1)
 
-inOrder(root)
+#inOrder(root)
+
+print(search(root,4))
