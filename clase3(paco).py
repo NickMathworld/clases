@@ -51,7 +51,7 @@ def validateString(input):
     if len(parentesis) == 0:
         return True
     return False
-
+#hola mundo
 def palindromo(s):
     for x in range(int(len(s)/2)):
         if s[x] != s[len(s)-x-1]:
