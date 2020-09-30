@@ -27,12 +27,12 @@ class Tree:
             if num < next.num:
                 if next.left == None:
                     next.left = Tree(num,None,None)
-                    return 0
+                    next = next.left
                 next = next.left
             elif num > next.num:
                 if next.right == None:
                     next.right = Tree(num,None,None)
-                    return 0
+                    next = next.right
                 next = next.right
         return 0
 def inOrder(node):
