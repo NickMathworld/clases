@@ -26,7 +26,7 @@ for x in range(5,10):
     print(x)
 print("\n")
 cadena = "Brian Zuniga Uribe"
-cadenas = ["hola","mundo","nick","madworld"]
+ 
 primes = [2, 3, 5, 7]
 a = "nick"
 b = "levi"
@@ -67,3 +67,4 @@ for cadena in cadenas:
     print(cadena)
     for char in cadena:
         print(char)
+        
