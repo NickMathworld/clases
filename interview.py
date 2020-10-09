@@ -36,5 +36,4 @@ def uniqueChars(s):
 ## ABCDEA
 START = 0
 I = 5
-
 """
